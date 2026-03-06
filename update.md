@@ -99,8 +99,25 @@
 - Add worklog - 10:10 - 10:45
 
 ## Empower HH
-- Role & Permission module - Bug solve - 10:45 - 
+- Role & Permission module - Bug solve - 10:45 - 1:20, 1:43 - 3:50, 4:40 - 5:00, 5:30 - 5:50
+    - Admin User, Admin Role, Admin Permission module changes 
+    - Admin Role - Permission Dropdown not working properly, fixed
+    - Added proper validations 
+    - Admin Role Module - Added Select All, Deselect All buttons for Select Permissions
+    - Admin Role Issue - Some time display database issue in role permission, Unique constraint issue solved
+    - Other reported bugs by Jaya solved
+    - Uploaded in Uat
+    - solved bugs which comes after new changes uploaded
+        - Validation changes
 
+- In full project check condition like login user id is == 1 then its admin and can perform task. instead of this added condition like is_super_admin == 1/0 condition - 3:50 - 4:30
+
+
+- Login Module changes - 5:00 - 5:30
+    -  Inactive Admin User can not login and display msg like "User is Inactive. Please contact Administrator"
+    -  Inactive Admin Role User can not login and display msg like "User Role is Inactive. Please contact Administrator"
+
+- Created new cron script to Deactivate User on effective date - 5:50 - 6:50
 
 ######
 
